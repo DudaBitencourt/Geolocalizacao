@@ -15,7 +15,7 @@
        * SPDX-License-Identifier: Apache-2.0
        */
       function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
+        const map = new google.maps.Map(document.getElementById("map"), 
           zoom: 8,
           center: { lat: 40.731, lng: -73.997 },
         });
@@ -116,9 +116,11 @@
       <input id="submit" type="button" value="Reverse Geocode" />
     </div>
     <div id="map"></div>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_KEY&callback=initMap&v=weekly"
-      defer
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWXIPYniAFZvUfZjqS_QHKKAWOEjsh3qs
+&callback=initMap&v=weekly
+      defer"
     ></script>
   </body>
 </html>
+
+
